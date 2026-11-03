@@ -42,8 +42,6 @@ TNBC/TNBC/TNBC_without_split/
 
 The dataset loader reads images as RGB and masks as grayscale. Masks are converted to binary values using a threshold.
 
-> Update the dataset path in the notebook if your Kaggle dataset directory differs.
-
 ## Data Preprocessing and Augmentation
 
 The notebook includes:
