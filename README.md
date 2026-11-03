@@ -14,6 +14,25 @@ U-Net is a widely used architecture for biomedical image segmentation. It combin
 
 This implementation uses convolutional blocks containing two convolution layers, each followed by batch normalization and ReLU activation.
 
+
+## Dataset
+
+This project uses the **TNBC-MoNuSeg Segmentation Dataset**, hosted on Kaggle.
+
+**Dataset source:** [TNBC-MoNuSeg Segmentation Dataset](https://www.kaggle.com/datasets/kartikmaity/tnbc-monuseg-segmentation)
+
+The dataset contains medical image segmentation experiments.
+
+### Dataset Setup
+
+1. Open the Kaggle dataset page linked above.
+2. Add the dataset to your Kaggle notebook.
+3. Update the dataset path in the notebook if necessary.
+4. Run the preprocessing and training cells.
+
+The dataset is **not included in this repository**. Users should download or attach it from Kaggle and follow the dataset provider’s terms of use.
+
+
 ## Architecture
 
 The network consists of:
